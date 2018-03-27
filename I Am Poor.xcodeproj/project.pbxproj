@@ -198,6 +198,7 @@
 					};
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65VWDQAL2Z;
 						ProvisioningStyle = Automatic;
 					};
 					63F0304C1D71939300F171BD = {
@@ -434,9 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65VWDQAL2Z;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markrosenberg.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -446,9 +449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65VWDQAL2Z;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markrosenberg.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -517,6 +522,7 @@
 				63F030551D71939300F171BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
